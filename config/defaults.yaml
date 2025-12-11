@@ -1,0 +1,19 @@
+allowed_resolutions:
+  720p:
+    width: 1280
+    height: 720
+  1080p:
+    width: 1920
+    height: 1080
+  4k:
+    width: 3840
+    height: 2160
+supported_video_types:
+  - explainer
+  - tutorial
+  - promo
+  - narrative
+min_duration_seconds: 30
+max_duration_seconds: 3600
+default_duration_seconds: 120
+output_format: mp4
